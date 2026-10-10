@@ -1,0 +1,632 @@
+<!-- =========================================================
+   NEON — Toyhouse Profile Code
+   ---------------------------------------------------------
+   Author: NushaCode
+   Toyhouse: https://toyhou.se/Nushacode
+   Ko-fi: https://ko-fi.com/nushacode
+   Version: 1.0
+   ---------------------------------------------------------
+   Free to Use (F2U)
+   Please keep the original creator credit.
+   ========================================================= -->
+
+<!-- =========================================================
+   QUICK START
+   =========================================================
+   You can customize text, images, colors, and links.
+
+   1. Look for EDIT HERE notes to find customizable sections.
+   2. Replace placeholder text, links, and image URLs with your own.
+   3. Follow the instructions next to each section.
+   4. Some elements appear differently on desktop and mobile.
+      Keep their responsive classes unless you want to change the layout.
+   5. To remove a section, delete its entire HTML block,
+      including its opening and closing tags.
+
+   Please keep the original creator credit and do not resell the code.
+
+   Thank you for using NEON!
+   ========================================================= -->
+
+<!-- =========================================================
+   HTML CODE
+   ========================================================= -->
+<!-- Page content -->
+<div class="container px-0 mt-4 mb-0" style="max-width:992px;background-color: #010028;">
+    <!-- ==============================
+    PROFILE BANNER
+    EDIT HERE: Replace the image URL.
+    Recommended size: 992 × 150 px.
+    The image may be cropped to fit the banner.
+    ============================== -->
+    <div class="mb-3">
+        <div style="position:relative;overflow:hidden;height:150px;">
+            <img class="d-block w-100 h-100"
+                    src="https://cdn.jsdelivr.net/gh/nushacode/toyhouse-codes@main/F2U/neon/images/neon-top-bg.gif"
+                    alt="NEON animated profile banner" style="object-fit:cover;">
+        </div>
+        <div style="height:4px;background:linear-gradient(135deg,rgb(54,230,204) 0%,rgb(195,43,248) 69.39%,rgba(0,0,0,0) 100%);">&nbsp;</div>
+    </div>
+    <!-- > / PROFILE BANNER -->
+
+    <div class="row no-gutters" style="background-color:#010028;">
+        <!-- ==============================
+        PROFILE SIDEBAR
+        EDIT HERE: Update your profile text, social links,
+        and character links in the sections below.
+        ============================== -->
+        <div class="col-12 col-md-3 pr-md-2 mb-0">
+            <div class="card-block h-100 text-center" style="padding:4px;color:white;background:linear-gradient(135deg,rgb(54,230,204) 0%,rgb(195,43,248) 69.39%,rgba(0,0,0,0) 100%);box-shadow:0 0 12px rgba(195,43,248,0.5);">
+                <div style="background-image: url('https://cdn.jsdelivr.net/gh/nushacode/toyhouse-codes@main/F2U/neon/images/neon-bg.png');background-position: center;background-size: cover;background-repeat: repeat;padding-bottom:20px;">
+                    <!-- ==============================
+                         PROFILE AVATAR
+                         EDIT HERE: Replace the URL inside background-image:url('...').
+                         The image is displayed in a circle.
+                         ============================== -->
+                    <div class="rounded-circle" style="
+                        width:210px;
+                        height:210px;
+                        padding:5px;
+                        margin:-95px auto 0;
+                        background:linear-gradient(135deg,rgb(54,230,204) 0%,rgb(195,43,248) 69.39%,rgba(0,0,0,0) 100%);
+                        box-shadow:0 0 12px rgba(195,43,248,0.5);">
+
+                        <div class="w-100 h-100 rounded-circle" style="
+                            background-image:url('https://f2.toyhou.se/file/f2-toyhou-se/images/129240965_DJip6jXWhKC2YeY.png');
+                            background-size:cover;
+                            background-position:center;
+                            background-repeat:no-repeat;
+                            background-color:#000;">&nbsp;
+                        </div>
+                    </div>
+                    <!-- > / AVATAR -->
+
+                    <!-- ==============================
+                         PROFILE INFO
+                         EDIT HERE: Replace the placeholder text with your own age, gender, and description.
+                         ============================== -->
+                        <p class="small mt-3" style="font-family:'courier new',courier;color:#35E6CC;">
+                            age . gender . adjective
+                        </p>
+                    <!-- > / PROFILE INFO -->
+
+                    <hr class="mb-0">
+
+                    <!-- =========================================================
+                         SOCIAL LINKS
+                         EDIT HERE:
+                         - Replace each placeholder in href="" with your full profile URL.
+
+                         Examples:
+                         Ko-fi:      href="https://ko-fi.com/yourname"
+                         VGen:       href="https://vgen.co/yourname"
+
+                         - Keep the quotation marks around each URL.
+                         - To remove a social icon, delete its complete <li>...</li> block.
+                         - Keep the original coding credit link.
+                         ========================================================= -->
+                    <ul class="nav d-flex justify-content-center flex-row px-1"
+                        style="color:#35E6CC;font-size:14px;letter-spacing:1px;">
+
+                        <!-- Ko-fi -->
+                        <li class="nav-item align-items-center">
+                            <a href="KF_LINK" target="_blank" class="nav-link px-1" title="Ko-fi">
+                                <i class="fa-solid fa-mug-hot fa-fw pull-right" style="color:#35E6CC;"></i>
+                            </a>
+                        </li>
+
+                        <!-- VGen -->
+                        <li class="nav-item">
+                            <a href="VG_LINK" target="_blank" class="nav-link px-1" title="VGen">
+                                <span style="display:inline-block;
+                                   width:25px;background-image:url('https://help.vgen.co/hc/article_attachments/13004249258519');background-size:contain;background-position:center;background-repeat:no-repeat;filter:brightness(0) saturate(100%) invert(82%) sepia(48%) saturate(1050%) hue-rotate(118deg) brightness(94%) contrast(88%);">&nbsp;
+                                </span>
+                            </a>
+                        </li>
+
+                        <!-- DeviantArt -->
+                        <li class="nav-item">
+                            <a href="DA_LINK" target="_blank" class="nav-link px-1" title="DeviantArt">
+                                <i class="fab fa-deviantart fa-fw" style="color:#35E6CC;"></i>
+                            </a>
+                        </li>
+
+                        <!-- Instagram -->
+                        <li class="nav-item">
+                            <a href="IN_LINK" target="_blank" class="nav-link px-0" style="color:inherit;" title="Instagram">
+                                <i class="fab fa-instagram fa-fw" style="color:#35E6CC;"></i>
+                            </a>
+                        </li>
+
+                        <!-- Twitter / X -->
+                        <li class="nav-item">
+                            <a href="TWITTER_LINK" target="_blank" class="nav-link px-1" title="Twitter">
+                                <i class="fab fa-twitter fa-fw" style="color:#35E6CC;"></i>
+                            </a>
+                        </li>
+
+                        <!-- Tumblr -->
+                        <li class="nav-item">
+                            <a href="TUMBLR_LINK" target="_blank" class="nav-link px-0" title="Tumblr">
+                                <i class="fab fa-tumblr fa-fw" style="color:#35E6CC;"></i>
+                            </a>
+                        </li>
+
+                        <!-- Coding credit - Please keep the code credit link. -->
+                        <li class="nav-item">
+                            <a href="https://toyhou.se/Nushacode" target="_blank" class="nav-link px-1" title="Nushacode">
+                                <i class="fas fa-code fa-fw" style="color:#35E6CC;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- > / SOCIAL LINKS -->
+
+                    <!-- =========================================================
+                         CHARACTER LINKS
+                         EDIT HERE:
+                         - Replace CHARACTER_LINK with your character's Toyhouse URL.
+                           Example: href="https://toyhou.se/12345678.character-name"
+                         - Replace the image URL inside src.
+                         - Update alt text to describe the character.
+
+                         To add another character:
+                         Copy one complete Character block,
+                         including its opening and closing <div> tags.
+
+                         To remove a character:
+                         Delete its complete block.
+
+                         Keep the HTML structure intact.
+                         ========================================================= -->
+                    <div class="card-block mb-0">
+                        <div class="row text-center">
+                            <!-- Character 01 -->
+                            <div class="col-12 mb-3">
+                                <a href="CHARACTER_LINK" target="_blank" class="d-block" style="height:140px;box-shadow: 0 0 12px rgba(0, 255, 255, 0.5);overflow:hidden;">
+                                    <img class="m-0 p-0"style="object-fit: cover; max-width: 100%;"
+                                         src="https://cdn.jsdelivr.net/gh/nushacode/toyhouse-codes@main/F2U/neon/images/neon-character-01.png"
+                                         alt="Character 01">
+                                </a>
+                            </div>
+                            <!-- / Character 01 -->
+
+                            <!-- Character 02 -->
+                            <div class="col-12 mb-3">
+                                <a href="CHARACTER_LINK" target="_blank" class="d-block" style="height:140px;box-shadow: 0 0 12px rgba(0, 255, 255, 0.5); overflow:hidden;">
+                                    <img class="m-0 p-0" style="object-fit: cover; max-width: 100%;"
+                                         src="https://cdn.jsdelivr.net/gh/nushacode/toyhouse-codes@main/F2U/neon/images/neon-character-02.png"
+                                         alt="Character 02">
+                                </a>
+                            </div>
+                            <!-- / Character 02 -->
+
+                            <!-- Character 03 -->
+                            <div class="col-12 mb-3">
+                                <a href="CHARACTER_LINK" target="_blank" class="d-block" style="height:140px;box-shadow: 0 0 12px rgba(0, 255, 255, 0.5); overflow:hidden;">
+                                    <img class="m-0 p-0" style="object-fit: cover; max-width: 100%;"
+                                         src="https://cdn.jsdelivr.net/gh/nushacode/toyhouse-codes@main/F2U/neon/images/neon-character-03.png"
+                                         alt="Character 03">
+                                </a>
+                            </div>
+                            <!-- / Character 03 -->
+
+                            <!-- Character 04 -->
+                            <div class="col-12 mb-0">
+                                <a href="CHARACTER_LINK" target="_blank" class="d-block" style="height:140px;box-shadow: 0 0 12px rgba(0, 255, 255, 0.5);overflow:hidden;">
+                                    <img class="m-0 p-0" style="object-fit: cover; max-width: 100%;"
+                                         src="https://cdn.jsdelivr.net/gh/nushacode/toyhouse-codes@main/F2U/neon/images/neon-character-04.png"
+                                         alt="Character 04">
+                                </a>
+                            </div>
+                            <!-- / Character 04 -->
+                        </div>
+                    </div>
+                    <!-- > / CHARACTER LINKS -->
+                </div>
+            </div>
+        </div>
+        <!-- > / PROFILE SIDEBAR -->
+
+        <!-- =========================================================
+             MAIN CONTENT
+             This section contains the username, About, Art,
+             Likes & Dislikes, Music, Hobbies, and Trades sections.
+             ========================================================= -->
+        <div class="col-12 col-md-9 pl-md-1 mb-0 position-relative" style="overflow: hidden;">
+            <!-- Username -->
+            <div class="mb-2">
+                <h1 class="d-flex mb-1 mr-2 overflow-hidden justify-content-center justify-content-md-start align-items-center"
+                    style="
+                    max-height: 80px;text-shadow:0 0 12px rgba(0,255,255,0.5);
+                    font-size:55px;letter-spacing:2px;color:#35E6CC;font-family:'impact',chicago;font-weight:bold;">
+
+                    <span class="d-none d-md-flex">&gt;&nbsp;_</span><span class="d-flex">Username<span class="d-none d-md-flex">...</span></span>
+
+                    <span class="d-none d-md-block" style="
+                        flex: 0 0 300px;height: 90px;
+                        background-image:url('https://cdn.jsdelivr.net/gh/nushacode/toyhouse-codes@main/F2U/neon/images/voice-recognition.gif');
+                        background-size:contain;background-position:center;background-repeat:no-repeat;">&nbsp;
+                    </span>
+                </h1>
+            </div>
+            <!-- / Username -->
+
+            <!-- About + Art -->
+            <div class="row no-gutters align-items-stretch position-relative">
+                <!-- ==============================
+                     ABOUT
+                     EDIT HERE: Replace the sample paragraphs with your own text.
+
+                     The second paragraph is hidden on small screens
+                     and displayed on medium and larger screens.
+
+                     You can remove a paragraph by deleting its
+                     complete <p>...</p> element.
+
+                     Avoid removing the surrounding card structure.
+                     ============================== -->
+                <div class="col-12 col-md-7 pr-md-1 mb-3">
+                    <!-- About card -->
+                    <div style="padding:4px;background:linear-gradient(135deg,#36E6CC 0%,#C32BF8 100%);box-shadow:0 0 12px rgba(0,255,255,0.5);">
+
+                        <!-- About background -->
+                        <div class="h-100" style="background-color:rgba(0,0,0,0.7);color:#35E6CC;">
+
+                            <h2 class="mb-0 px-3 pt-2"
+                                style="font-family:'impact',chicago;
+                                        background-image:linear-gradient(to right,#008297,#000121);
+                                        color:#35E6CC;
+                                        border-bottom:4px solid #35E6CC;
+                                        padding-bottom:5px;">
+                                ABOUT
+                            </h2>
+                            <div class="col-7 col-md-11 p-4 pb-3 pr-5 pb-md-5"
+                                 style="font-size:15px;line-height:1.5;">
+                                <p style="font-family:'courier new',courier;">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua.
+                                    Quis ipsum suspendisse ultrices
+                                    gravida.
+                                </p>
+                                <p class="d-none d-md-flex"
+                                   style="font-family:'courier new',courier;">
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- / About background -->
+                    </div>
+                    <!-- / About card -->
+                </div>
+                <!-- / About -->
+
+                <!-- Art -->
+                <!-- This block overlaps the About section. -->
+                <div class="col-6 col-md-6 mb-2" style="position:absolute;margin-top:70px;right:0;z-index:10;">
+
+                    <!-- Art card -->
+                    <div style="padding:4px;
+                        background:linear-gradient(135deg,#36E6CC 0%,#C32BF8 100%);
+                        box-shadow:0 0 12px rgba(0,255,255,0.5);">
+
+                        <!-- Art background -->
+                        <div style="background-color:rgba(0,0,0,0.7);
+                                    padding-bottom:4px;
+                                    color:#35E6CC;">
+
+                            <h2 class="mb-0 px-3 pt-2"
+                                style="font-family:'impact',chicago;
+                                        background-image:linear-gradient(to right,#008297,#000121);
+                                        color:#35E6CC;
+                                        border-bottom:4px solid #35E6CC;
+                                        padding-bottom:5px;">
+                                ART
+                            </h2>
+
+                            <ul class="mb-0 mx-3 p-3 px-3"
+                                style="font-family:'courier new',courier;font-size:14px;line-height:1.5; color:#35E6CC;">
+                                <li>commissions open</li>
+                                <li>trades open</li>
+                                <li>requests <span style="color: #d7277d;">closed</span></li>
+                            </ul>
+
+                            <div class="mx-3 mb-3 d-none d-md-flex flex-column"
+                                 style="min-height:70px;box-shadow: 0 0 12px rgba(0, 255, 255, 0.5);">
+                                <img
+                                        src="https://cdn.jsdelivr.net/gh/nushacode/toyhouse-codes@main/F2U/neon/images/blinkies1.gif"
+                                        class="w-100 m-0 p-0"
+                                        style="object-fit: cover; max-width: 100%;"
+                                        alt="Art">
+                                <img
+                                        src="https://cdn.jsdelivr.net/gh/nushacode/toyhouse-codes@main/F2U/neon/images/blinkies2.gif"
+                                        class="w-100 m-0 p-0"
+                                        style="object-fit: cover; max-width: 100%;;"
+                                        alt="Art">
+                            </div>
+                        </div>
+                        <!-- / Art background -->
+                    </div>
+                    <!-- / Art card -->
+                </div>
+                <!-- / Art -->
+            </div>
+            <!-- / About + Art -->
+
+            <!-- Likes + Dislikes + Music -->
+            <div class="row no-gutters align-items-stretch">
+
+                <!-- Likes -->
+                <div class="col-md-3 pr-md-2 mb-3">
+                    <!-- Likes card -->
+                    <div style="padding:4px;
+                                background:linear-gradient(135deg,#36E6CC 0%,#C32BF8 100%);
+                                box-shadow:0 0 12px rgba(0,255,255,0.5);">
+
+                        <!-- Likes background -->
+                        <div class="h-100 text-white"
+                             style="background-color:rgba(0,0,0,0.7);">
+
+                            <h2 class="mb-0 px-3 pt-2"
+                                style="font-family:'impact',chicago;
+                                        background-image:linear-gradient(to right,#008297,#000121);
+                                        color:#35E6CC;
+                                        border-bottom:4px solid #35E6CC;
+                                        padding-bottom:5px;">
+                                LIKES
+                            </h2>
+
+                            <ul class="mb-0 mx-3 p-3 px-3"
+                                style="font-family:'courier new',courier;
+                                        font-size:14px;
+                                        color:#35E6CC;">
+                                <li>content</li>
+                                <li>content</li>
+                                <li>content</li>
+                                <li>content</li>
+                            </ul>
+                        </div>
+                        <!-- / Likes background -->
+                    </div>
+                    <!-- / Likes card -->
+                </div>
+                <!-- / Likes -->
+
+                <!-- Dislikes -->
+                <div class="col-md-3 pr-md-2 pl-md-1 mb-3">
+                    <!-- Dislikes card -->
+                    <div style="padding:4px;
+                                background:linear-gradient(135deg,#36E6CC 0%,#C32BF8 100%);
+                                box-shadow:0 0 12px rgba(0,255,255,0.5);">
+
+                        <!-- Dislikes background -->
+                        <div class="h-100 text-white"
+                             style="background-color:rgba(0,0,0,0.7);">
+
+                            <h2 class="mb-0 px-3 pt-2"
+                                style="font-family:'impact',chicago;
+                                        background-image:linear-gradient(to right,#008297,#000121);
+                                        color:#35E6CC;
+                                        border-bottom:4px solid #35E6CC;
+                                        padding-bottom:5px;">
+                                DISLIKES
+                            </h2>
+
+                            <ul class="mb-0 mx-3 p-3 px-3"
+                                style="font-family:'courier new',courier;
+                                        font-size:14px;
+                                        color:#35E6CC;">
+                                <li>content</li>
+                                <li>content</li>
+                                <li>content</li>
+                                <li>content</li>
+                            </ul>
+                        </div>
+                        <!-- / Dislikes background -->
+                    </div>
+                    <!-- / Dislikes card -->
+                </div>
+                <!-- / Dislikes -->
+
+                <!-- ==============================
+                     MUSIC PLAYER
+                     EDIT HERE:
+                     - Song title
+                     - Artist name
+                     - YouTube video ID
+
+                     The player uses a carousel to switch tracks.
+                     Keep the carousel structure intact.
+                     ============================== -->
+                <div class="col-md-6 pl-md-1 mb-2">
+                    <div style="padding:4px;background:linear-gradient(135deg,#36E6CC 0%,#C32BF8 100%);box-shadow:0 0 12px rgba(0,255,255,0.5);">
+                        <div style="background:#080719;padding:10px;color:#35E6CC;">
+                            <div class="d-flex align-items-center">
+                                <div class="col-auto p-0">
+                                    <div class="rounded-circle" style="
+                                        width:60px;
+                                        height:60px;
+                                        background-image:url('https://cdn.jsdelivr.net/gh/nushacode/toyhouse-codes@main/F2U/neon/images/player-music.gif');
+                                        background-size:auto;
+                                        background-position:center;
+                                        background-repeat:no-repeat;
+                                        box-shadow:0 0 8px rgba(0,255,255,0.5);">
+                                        &nbsp;
+                                    </div>
+                                </div>
+
+                                <div style="flex:1;min-width:0;">
+                                    <div id="neonMusicCarousel" class="carousel slide" data-pause="true">
+                                        <div class="carousel-inner">
+                                            <!-- TRACK 01 -->
+                                            <div class="carousel-item active">
+                                                <div class="d-flex align-items-center" style="min-height:82px;">
+                                                    <div style="flex:1;min-width:0;padding:0 7px;">
+                                                        <div style="font-size:15px;font-weight:bold;line-height:1.25;color:#35E6CC;">
+                                                            <i class="fas fa-music fa-fw mr-1"></i>Internet Girl
+                                                        </div>
+                                                        <div class="ml-4" style="font-size:10px;letter-spacing:1px;color:#35E6CC;margin-top:4px;">
+                                                            K A T S E Y E
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-center" style="width:112px;flex:0 0 112px;padding:0 3px;">
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <a href="#neonMusicCarousel"
+                                                               data-target="#neonMusicCarousel"
+                                                               data-slide="prev"
+                                                               role="button"
+                                                               aria-label="Previous track"
+                                                               style="color:#00f5e5;font-size:17px;text-decoration:none;">|◀</a>
+                                                            <div class="d-flex align-items-center justify-content-center rounded-circle" style="position:relative;width:38px;height:38px;flex:0 0 38px;border:2px solid #00f5e5;box-shadow:0 0 9px #00f5e5;
+                                                            color:#00f5e5;font-size:18px;overflow:hidden;">
+                                                                <i class="fas fa-play fa-fw" style="pointer-events:none;"></i>
+                                                                <iframe
+                                                                        title="Play Internet Girl"
+                                                                        src="https://www.youtube.com/embed/5q9EjSUovc4"
+                                                                        allow="autoplay; encrypted-media; picture-in-picture"
+                                                                        frameborder="0"
+                                                                        style="height:13em;width:10em;opacity:.001;position:absolute;top:-3.9em;left:-4em;z-index:10;border:0;">
+                                                                </iframe>
+                                                            </div>
+                                                            <a href="#neonMusicCarousel"
+                                                               data-target="#neonMusicCarousel"
+                                                               data-slide="next"
+                                                               role="button"
+                                                               aria-label="Next track"
+                                                               style="color:#00f5e5;font-size:17px;text-decoration:none;">▶|</a>
+                                                        </div>
+                                                        <div style="font-size:8px;color:#d7277d;letter-spacing:1px;margin-top:5px;">
+                                                            TRACK 01 / 02
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- TRACK 02 -->
+                                            <div class="carousel-item">
+                                                <div class="d-flex align-items-center" style="min-height:82px;">
+                                                    <div style="flex:1;min-width:0;padding:0 7px;">
+                                                        <div style="font-size:15px;font-weight:bold;line-height:1.25;color:#35E6CC;">
+                                                            <i class="fas fa-music fa-fw mr-1"></i>Less Than Three
+                                                        </div>
+                                                        <div class="ml-4" style="font-size:10px;letter-spacing:1px;color:#35E6CC;margin-top:4px;">
+                                                            DISK0 WARP
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="text-center" style="width:112px;flex:0 0 112px;padding:0 3px;">
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <a href="#neonMusicCarousel" data-target="#neonMusicCarousel" data-slide="prev" role="button" aria-label="Previous track" style="color:#00f5e5;font-size:17px;text-decoration:none;">|◀</a>
+                                                            <div class="d-flex align-items-center justify-content-center rounded-circle" style="position:relative;width:38px;height:38px;flex:0 0 38px;border:2px solid #00f5e5;box-shadow:0 0 9px #00f5e5;
+                                                            color:#00f5e5;font-size:18px;overflow:hidden;">
+                                                                <i class="fas fa-play fa-fw" style="pointer-events:none;"></i>
+                                                                <iframe title="Play Less Than Three" src="https://www.youtube.com/embed/RrK-Vw8cwSM" allow="autoplay; encrypted-media; picture-in-picture" frameborder="0" style="height:13em;width:10em;opacity:.001;position:absolute;top:-3.9em;left:-4em;z-index:10;border:0;"></iframe>
+                                                            </div>
+                                                            <a href="#neonMusicCarousel" data-target="#neonMusicCarousel" data-slide="next" role="button" aria-label="Next track" style="color:#00f5e5;font-size:17px;text-decoration:none;">▶|</a>
+                                                        </div>
+                                                        <div style="font-size:8px;color:#d7277d;letter-spacing:1px;margin-top:5px;">
+                                                            TRACK 02 / 02
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- / carousel-inner -->
+                                    </div>
+                                    <!-- / carousel -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / Music -->
+
+            </div>
+            <!-- / Likes + Dislikes + Music -->
+
+            <!-- Hobbies + Trades -->
+            <div class="row no-gutters align-items-stretch">
+                <!-- Hobbies -->
+                <div class="col-md-6 pr-md-2 mb-3 mb-md-0">
+                    <!-- Hobbies card -->
+                    <div style="padding:4px;background:linear-gradient(135deg,#36E6CC 0%,#C32BF8 100%);box-shadow:0 0 12px rgba(0,255,255,0.5);">
+                        <!-- Hobbies background -->
+                        <div class="h-100" style="background-color:rgba(0,0,0,0.7);color:#fff;">
+                            <h2 class="mb-0 px-3 pt-2"
+                                style="font-family:'impact',chicago;background-image:linear-gradient(to right,#008297,#000121);color:#35E6CC;border-bottom:4px solid #35E6CC;padding-bottom:5px;">
+                                HOBBIES
+                            </h2>
+                            <ul class="mb-0 mx-3 p-3 px-3"
+                                style="font-family:'courier new',courier;font-size:14px;color:#35E6CC;">
+                                <li>content</li>
+                                <li>content</li>
+                                <li>content</li>
+                                <li>content</li>
+                            </ul>
+                        </div>
+                        <!-- / Hobbies background -->
+                    </div>
+                    <!-- / Hobbies card -->
+                </div>
+                <!-- / Hobbies -->
+
+                <!-- ==============================
+                     TRADES & SALES
+                     EDIT HERE: Replace each # with your own link.
+                     You can also change the button labels.
+                     ============================== -->
+                <div class="col-md-6 pl-md-2 mb-0 mb-md-0">
+                    <!-- Desktop spacing -->
+                    <div class="d-block d-md-none" style="height:50px;"></div>
+
+                    <!-- Trades card -->
+                    <div style="
+                                padding:4px;
+                                background:linear-gradient(135deg,#36E6CC 0%,#C32BF8 100%);
+                                box-shadow:0 0 12px rgba(0,255,255,0.5);
+                                top: -50px;
+                                position: relative;">
+                        <!-- Trades background -->
+                        <div style="background-color:rgba(0,0,0,0.7);color:#35E6CC;">
+                            <h2 class="mb-0 px-3 pt-2"
+                                style="font-family:'impact',chicago;background-image:linear-gradient(to right,#008297,#000121);
+                                        color:#35E6CC;
+                                        border-bottom:4px solid #35E6CC;
+                                        padding-bottom:5px;">
+                                TRADES
+                            </h2>
+                            <div class="p-3"
+                                 style=" font-family:'courier new',courier;
+                                        font-size:14px;
+                                        color:#35E6CC;">
+                                <a href="#" class="btn w-100 mb-2" style="border-radius: 0;
+                                          color:#35E6CC;
+                                          border: 2px solid #d7277d;
+                                          box-shadow: 0 0 30px rgba(215, 39, 125, 0.5), inset 0 0 30px rgba(148, 20, 96, 0.2);">
+                                    Trades
+                                </a>
+
+                                <a href="#" class="btn w-100 mb-2" style="border-radius: 0;color:#35E6CC;border: 2px solid #d7277d;box-shadow: 0 0 30px rgba(215, 39, 125, 0.5), inset 0 0 30px rgba(148, 20, 96, 0.2);">
+                                    Sales
+                                </a>
+                                <a href="#" class="btn w-100 mb-2" style="border-radius: 0;color:#35E6CC;border: 2px solid #d7277d;box-shadow: 0 0 30px rgba(215, 39, 125, 0.5), inset 0 0 30px rgba(148, 20, 96, 0.2);">
+                                    Wishlist
+                                </a>
+                            </div>
+                        </div>
+                        <!-- / Trades background -->
+                    </div>
+                    <!-- / Trades card -->
+                </div>
+                <!-- / Trades -->
+            </div>
+            <!-- / Hobbies + Trades -->
+        </div>
+        <!-- / Main content -->
+    </div>
+</div>
+<!-- / Page content -->
